@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Chats | Kakao Clone</title>
     <script src="https://kit.fontawesome.com/b2e375b9b3.js" crossorigin="anonymous"></script>
 </head>
@@ -39,15 +40,25 @@
         <ul class="chats__list">
             <li class="chats__chat chat">
                 <a href="chat.html">
-                    <div class="chat__column">
-                        <img class="chat__avatar g-avatar" src="images/avatar.jpg"/>
-                        <div class="chat__content">
-                            <span class="chat__username">Yejin</span>
-                            <span class="chat__preview">hehe</span>
+                    <div class="chats__chat friend">
+                        <div class="friend__column">
+                            <img class="friend__avatar m-avatar" src="images/avatar.jpg">
+                            <div class="friend__content">
+                                <span class="friend__name">
+                                    BFF
+                                </span>
+                                <span class="friend__preview">
+                                    Thanks Babe
+                                </span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="chat__column">
-                        <span class="chat__timestamp"></span>
+                        <div class="friend__column">
+                            <div class="friend__content">
+                                <span class="chat__timestamp">
+                                    March 8
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </a>
             </li>
@@ -62,6 +73,7 @@
             </li>
             <li class="nav__list-item">
                 <a href="index.html" class="nav__list-link">
+                    <div class="nav__badge">8</div>
                     <i class="fas fa-comment"></i>
                 </a>
             </li>
@@ -77,5 +89,8 @@
             </li>
         </ul>
     </nav>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small! 😱</span>
+    </div>
 </body>
 </html>

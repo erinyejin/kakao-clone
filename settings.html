@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Settings | Kakao Clone</title>
     <script src="https://kit.fontawesome.com/b2e375b9b3.js" crossorigin="anonymous"></script>
 </head>
@@ -21,8 +22,8 @@
     </div>
     <header class="header">
         <div class="header__header-column">
-            <a href="more.html">
-                <i class="fas fa-arrow-left fa-2x"></i>
+            <a href="more.html" class="header__back-btn">
+                <i class="fas fa-arrow-left"></i>
             </a>
             <h1 class="header__title">Settings</h1>
         </div>
@@ -35,19 +36,19 @@
     <main class="settings">
         <section class="settings__sections">
             <ul class="settings__list">
-                <li class="settings__settin">
+                <li class="settings__setting">
                     <span class="settings__icon">
                         <i class="fas fa-lock"></i>
                     </span>
                     <span class="settings__title">Privacy</span>
                 </li>
-                <li class="settings__settin">
+                <li class="settings__setting">
                     <span class="settings__icon">
                         <i class="far fa-bell"></i>
                     </span>
                     <span class="settings__title">Notification</span>
                 </li>
-                <li class="settings__settin">
+                <li class="settings__setting">
                     <span class="settings__icon">
                         <i class="far fa-user"></i>
                     </span>
@@ -56,5 +57,8 @@
             </ul>
         </section>
     </main>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small! 😱</span>
+    </div>
 </body>
 </html>

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>More | Kakao Clone</title>
     <script src="https://kit.fontawesome.com/b2e375b9b3.js" crossorigin="anonymous"></script>
 </head>
@@ -39,9 +40,9 @@
     </header>
     <main class="more">
         <header class="more__header">
-            <div class="friends__friend friend friend">
+            <div class="friends__friend friend">
                 <div class="friend__column">
-                    <img class="chat__avatar g-avatar" src="images/avatar.jpg">
+                    <img class="friend__avatar g-avatar" src="images/avatar.jpg">
                     <div class="friend__content">
                         <span class="friend__name">
                             Yejin Lee
@@ -52,10 +53,11 @@
                     </div>
                 </div>
                 <div class="friend__column">
-                    <div class="friend__now-listening">
-                        <i class="fas fa-envelope-open-text fa-2x"></i>
-                    </div>
+                        <span class="push">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </span>
                 </div>
+            </div>
                 <ul class="more__btn-list">
                     <li class="more__btn">
                         <span class="more__btn-icon">
@@ -76,17 +78,16 @@
                         <span class="more__btn-title">Accounts</span>
                     </li>
                 </ul>
-            </div>
         </header>
         <section class="more__suggestions">
             <h5 class="more__title">Suggestions</h5>
             <ul class="more__suggestions-list">
                 <li class="more__suggestion suggestion">
-                    <i class="fas fa-quote-right fa-2x"></i>
+                    <i class="fas fa-quote-right"></i>
                     <span class="suggestion__title">Kakao Story</span>
                 </li>
                 <li class="more__suggestion suggestion">
-                    <i class="fas fa-paw fa-2x"></i>
+                    <i class="fas fa-paw"></i>
                     <span class="suggestion__title">Kakao friends</span>
                 </li>
                 <li class="more__suggestion suggestion">
@@ -105,6 +106,7 @@
             </li>
             <li class="nav__list-item">
                 <a href="index.html" class="nav__list-link">
+                    <div class="nav__badge">8</div>
                     <i class="far fa-comment"></i>
                 </a>
             </li>
@@ -120,5 +122,8 @@
             </li>
         </ul>
     </nav>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small! 😱</span>
+    </div>
 </body>
 </html>
